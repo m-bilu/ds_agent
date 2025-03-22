@@ -5,12 +5,12 @@
 # - setup cohere key as env var
 
 # 1
-#python3 -m venv env
-#source env/bin/activate
-#python install -r requirements.txt
+python3.11 -m venv env
+env/bin/pip install -r requirements.txt
 
 # 2
 export COHERE_API_KEY=$(cat *key)
 
 # 3
-python main.py
+sentence="$1"
+env/bin/python main.py "$sentence"
