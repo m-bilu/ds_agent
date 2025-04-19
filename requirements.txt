@@ -1,0 +1,10 @@
+langchain
+langchain-cohere
+langgraph
+langchain-community
+cohere
+pandas
+matplotlib
+seaborn
+numpy
+kagglehub
